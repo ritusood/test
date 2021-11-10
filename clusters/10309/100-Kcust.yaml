@@ -2,10 +2,10 @@ apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
 kind: Kustomization
 metadata:
   name: app100
-  namespace: flux-system
+  namespace: default
 spec:
   interval: 5m0s
-  path: ./kustomize
+  path: ./clusters/10309/context/100
   prune: true
   sourceRef:
     kind: GitRepository

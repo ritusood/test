@@ -2,9 +2,9 @@ apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: GitRepository
 metadata:
   name: app100
-  namespace: flux-system
+  namespace: default 
 spec:
   interval: 30s
   ref:
     branch: main
-  url: https://github.com/ritusood/test/clusters/10309/context/100
+  url: https://github.com/ritusood/test
