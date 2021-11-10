@@ -1,6 +1,7 @@
 # SOURCE: https://cloud.google.com/kubernetes-engine/docs/tutorials/guestbook
 apiVersion: v1
 kind: Service
+namespace: default
 metadata:
   name: redis-leader
   labels:
