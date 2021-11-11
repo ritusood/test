@@ -1,9 +1,9 @@
 # SOURCE: https://cloud.google.com/kubernetes-engine/docs/tutorials/guestbook
 apiVersion: apps/v1
 kind: Deployment
-namespace: default
 metadata:
   name: redis-leader
+  namespace: default
   labels:
     app: redis
     role: leader
