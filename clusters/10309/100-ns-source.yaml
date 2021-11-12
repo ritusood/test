@@ -1,0 +1,10 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: GitRepository
+metadata:
+  name: app100ns
+  namespace: myns 
+spec:
+  interval: 30s
+  ref:
+    branch: main
+  url: https://github.com/ritusood/test
