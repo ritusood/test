@@ -1,0 +1,12 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: GitRepository
+metadata:
+  creationTimestamp: null
+  name: "6757623011536031740"
+  namespace: default
+spec:
+  interval: 1s
+  ref:
+    branch: main
+  url: https://github.com/ritusood/test
+status: {}
