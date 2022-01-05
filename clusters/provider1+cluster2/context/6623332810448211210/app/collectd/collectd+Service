@@ -1,0 +1,1 @@
+{"apiVersion":"v1","kind":"Service","metadata":{"labels":{"app":"collectd","emco/deployment-id":"6623332810448211210-collectd","release":"r1"},"name":"collectd"},"spec":{"ports":[{"name":"collectd-prometheus","port":9104,"protocol":"TCP","targetPort":9103}],"selector":{"app":"collectd","collector":"collectd"},"type":"ClusterIP"}}
