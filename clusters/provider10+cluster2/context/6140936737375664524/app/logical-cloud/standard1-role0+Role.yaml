@@ -1,1 +1,0 @@
-{"apiVersion":"rbac.authorization.k8s.io/v1","kind":"Role","metadata":{"labels":{"emco/deployment-id":"6140936737375664524-logical-cloud"},"name":"standard1-role0","namespace":"testns1"},"rules":[{"apiGroups":["*"],"resources":["*"],"verbs":["*"]}]}
