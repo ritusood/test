@@ -1,0 +1,1 @@
+{"apiVersion":"k8splugin.io/v1alpha1","kind":"ResourceBundleState","metadata":{"creationTimestamp":null,"labels":{"emco/deployment-id":"7150150977367390135-logical-cloud"},"name":"7150150977367390135-logical-cloud","namespace":"default"},"spec":{"selector":{"matchLabels":{"emco/deployment-id":"7150150977367390135-logical-cloud"}}},"status":{"ready":false,"resourceCount":0}}
