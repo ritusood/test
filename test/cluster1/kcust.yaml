@@ -5,7 +5,7 @@ metadata:
   namespace: default
 spec:
   interval: 5m0s
-  path: test/cm
+  path: test/cluster1
   prune: true
   sourceRef:
     kind: GitRepository
