@@ -1,4 +1,11 @@
 ---
+
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: mytest
+
+---
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -39,9 +46,3 @@ data:
     allow.textmode=true
 
 
----
-
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: mytest
