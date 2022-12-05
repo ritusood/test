@@ -21,7 +21,7 @@ data:
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: game-demo-1
+  name: game-demo-2
   namespace: default
 data:
   # property-like keys; each key maps to a simple value
